@@ -10,5 +10,34 @@ package ec.edu.ups.EstructuraPeriodica;
  * @author Ivàn
  */
 public class EstructuraPeriodica {
-    
+
+    private String nombrePeriodico;
+    private String ubicacion;
+    private int fecha;
+
+    public void setNombrePeriodico(String nombrePeriodico) {
+        this.nombrePeriodico = nombrePeriodico;
+    }
+
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public void setFecha(int fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getNombrePeriodico() {
+
+        return this.nombrePeriodico;
+    }
+
+    public String getUbicacion() {
+        return this.ubicacion;
+    }
+
+    public int getFecha() {
+
+        return this.fecha;
+    }
 }

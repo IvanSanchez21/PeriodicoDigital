@@ -12,19 +12,20 @@ import ec.edu.ups.clases.RedSocial;
  * @author Estudiante
  */
 public class Prueba {
-    public static void main(String[ ] arg){
-        RedSocial facebook=new RedSocial();
+
+    public static void main(String[] arg) {
+        RedSocial facebook = new RedSocial();
         facebook.setCodigo(1);
         facebook.setNombre("Facebook");
         facebook.setUrl("Url");
-        
-        int cod=facebook.getCodigo();
+
+        int cod = facebook.getCodigo();
         System.out.println("Codigo: " + cod);
-        
-        String nom=facebook.getNombre();
+
+        String nom = facebook.getNombre();
         System.out.println("Nombre: " + nom);
-        
-        String url=facebook.getNombre();
+
+        String url = facebook.getNombre();
         System.out.println("Url: " + url);
     }
 }

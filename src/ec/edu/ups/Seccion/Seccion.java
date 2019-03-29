@@ -10,5 +10,14 @@ package ec.edu.ups.Seccion;
  * @author Ivàn
  */
 public class Seccion {
-    
+
+    private String nombre;
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
 }
